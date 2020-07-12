@@ -9,6 +9,9 @@
      Font-family: Montserrat;
      padding:60px;
      border-radius:50%;
+     -webkit-box-shadow: 10px 10px 35px -2px rgba(0,0,0,1);
+     -moz-box-shadow: 10px 10px 35px -2px rgba(0,0,0,1);
+     box-shadow: 10px 10px 35px -2px rgba(0,0,0,1);
 }
  .card2-circle .card2-title{
     font-weight:600;
