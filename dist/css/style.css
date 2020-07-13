@@ -381,7 +381,7 @@
 
 .card5 {
     position: absolute;
-    left: 260px;
+    left: 0px;
     top: 340px;
     width: 250px;
     height: 50px;
@@ -478,10 +478,36 @@
 .card8 {
     position: absolute;
     left: 260px;
-    top: 290px;
+    top: 325px;
     width: 250px;
     height: 50px;
     margin-left: 20px;
     background: #ffffff;
     border-radius: 50px;
+}
+
+.image-container {
+    margin-top: -5px;
+    margin-left: 15px;
+    width: 220px;
+    height: 30px;
+}
+
+.image-champ {
+    width: 35px;
+    height: 35px;
+    margin-top: -5px
+}
+
+.image-container2 {
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 220px;
+    height: 30px;
+}
+
+.image-champ2 {
+    margin-top: -45px;
+    width: 35px;
+    height: 35px;
 }
