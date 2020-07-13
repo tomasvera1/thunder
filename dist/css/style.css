@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
-body {
-
-}
-
 .open-form,
 .reset-form {
     margin-top: 50px;
@@ -23,7 +19,7 @@ body {
 .form-popup .form-wrapper {
     top: 2em;
     max-width: 1200px;
-    height: 550px;
+    height: 620px;
     background: white;
     padding: 50px;
     padding-top: 50px;
@@ -36,9 +32,6 @@ body {
     border-top-right-radius: 60px;
     border-bottom-right-radius:60px;
     border-bottom-left-radius:60px;
-    -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
 }
 
 .header-section {
@@ -123,10 +116,13 @@ body {
     top: 80px;
     left: 0px;
     width: 1200px;
-    height: 470px;
-    background-color: #ffffff;
+    height: 620px;
+    background: #ffffff;
     border-bottom-left-radius:60px;
     border-bottom-right-radius:60px;
+    -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
 }
 
 .main-section h1 {
@@ -135,8 +131,6 @@ body {
 
 }
 
-.title {
-}
 
 .sub-title {
     line-height: 1em;
@@ -162,12 +156,11 @@ body {
 
 .card2 {
     position: absolute;
-    left: 550px;
-    top: 120px;
+    top: 335px;
     width: 550px;
     height: 200px;
     background: #ffffff;
-    margin-left: 60px;
+    margin-left: 35px;
     border-radius: 50px;
     -webkit-box-shadow: 10px 10px 5px -6px rgba(148,148,148,1);
     -moz-box-shadow: 10px 10px 5px -6px rgba(148,148,148,1);
@@ -260,10 +253,29 @@ body {
     border-radius: 50px;
 }
 
+.status-lp {
+    position: absolute;
+    top: 150px;
+    left: 255px;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    background: #ececec;
+    border: none;
+}
+
+.status-lp select {
+    width: 200px;
+    height: 30px;
+    background: #ececec;
+    border-radius: 50px;
+    border: none;
+}
+
 .continue {
     position: absolute;
-    left: 510px;
-    top: 370px;
+    left: 900px;
+    top: 550px;
     width: 200px;
     height: 50px;
     font-size: 12px;
@@ -296,17 +308,15 @@ body {
     color: #ffffff;
 }
 
+/* --- CARD ---- 3 */
+
 .card3 {
-    position: absolute;
-    top: 350px;
-    left: 140px;
-    width: 330px;
+    width: 250px;
     height: 50px;
+    margin-top: -10px;
+    margin-left: 20px;
     background: #ffffff;
     border-radius: 50px;
-    -webkit-box-shadow: 10px 10px 5px -6px rgba(148,148,148,1);
-    -moz-box-shadow: 10px 10px 5px -6px rgba(148,148,148,1);
-    box-shadow: 10px 10px 5px -6px rgba(148,148,148,1);
 }
 
 .mini-card-container {
@@ -329,24 +339,66 @@ body {
 
 .server {
     margin-top: -54px;
-    margin-left: 130px;
+    margin-left: 125px;
 }
 
 .server select {
     margin-left: 5px;
-    width: 190px;
+    width: 120px;
     height: 50px;
     border-radius: 50px;
     background: #ffffff;
     border: none;
 }
 
+/* --- CARD ---- 4 */
+
 .card4 {
-    position: absolute;
-    top: 350px;
-    left: 750px;
-    width: 330px;
+    width: 250px;
     height: 50px;
+    margin-left: 20px;
+    background: #ffffff;
+    border-radius: 50px;
+
+}
+
+.modo {
+    margin-top: -44px;
+    margin-left: 125px;
+}
+
+.modo select {
+    margin-left: 5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    background: #ffffff;
+    border: none;
+}
+
+
+/* --- CARD ---- 5 */
+
+.card5 {
+    position: absolute;
+    left: 260px;
+    top: 340px;
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+
+/* --- CARD 6 --- */
+
+.card6 {
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    width: 550px;
+    height: 415px;
     background: #ffffff;
     border-radius: 50px;
     -webkit-box-shadow: 10px 10px 5px -6px rgba(148,148,148,1);
@@ -354,35 +406,82 @@ body {
     box-shadow: 10px 10px 5px -6px rgba(148,148,148,1);
 }
 
-.modo {
-    margin-top: -54px;
-    margin-left: 130px;
+.card-title2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: 10px;
 }
 
-.modo select {
-    margin-left: 5px;
-    width: 190px;
-    height: 50px;
-    border-radius: 50px;
-    background: #ffffff;
-    border: none;
+.card6 hr {
+    width: 350px;
 }
 
-.status-lp {
+.price-a {
+    margin-left: 40px;
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.price-b {
+    margin-left: 250px;
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #b8b9b8;
+}
+
+.price-c {
+    margin-left: 225px;
+    margin-top: -15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #a82cda;
+}
+
+.time-a {
+    margin-left: 40px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.time-b {
+    margin-left: 250px;
+    margin-top: -50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* --- CARD 7 --- */
+
+.card7 {
     position: absolute;
-    top: 150px;
-    left: 255px;
-    width: 200px;
-    height: 30px;
+    left: 260px;
+    top: 242px;
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    background: #ffffff;
     border-radius: 50px;
-    background: #ececec;
-    border: none;
 }
 
-.status-lp select {
-    width: 200px;
-    height: 30px;
-    background: #ececec;
+.checkbox {
+    position: absolute;
+    left: 195px;
+    top: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.card8 {
+    position: absolute;
+    left: 260px;
+    top: 290px;
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    background: #ffffff;
     border-radius: 50px;
-    border: none;
 }
