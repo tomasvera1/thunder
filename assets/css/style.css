@@ -1340,12 +1340,6 @@ canvas {
   margin-bottom: 0px;
 }
 
-.kda-img {
-  width: 800px;
-  margin-left: -150px;
-  margin-top: -200px;
-}
-
 .circle .icon {
   width: 60px;
   height: 60px;
@@ -1501,5 +1495,293 @@ canvas {
  .card2-circle:nth-child(2){
        margin-left:-20px;
        z-index:1;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+  .plays {
+    width: 100%;
+  }
+  .card2-circle{
+    width: 100%;
+    height: 380px;
+    margin-bottom: -50px;
+  }
+}
+
+@media only screen and (min-width:1280px) and (max-width: 1440px) {
+  .plays {
+    width: 100%;
+  }
+  .circle .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 410px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  .circle2 .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 1170px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .card2-circle {
+    width: 400px;
+    height: 420px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 160px;
+  }
+  .site-section h3 {
+    font-size: 20px;
+  }
+  .copy {
+    height: 100px;
+  }
+  .circle .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 320px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .circle .icon i {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .circle2 .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 670px;
+    top: 570px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .circle2 .icon i {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .item1 {
+    margin-top: 20px;
+  }
+  .item2 {
+    margin-top: 20px;
+  }
+  .item3 {
+    margin-left: 180px;
+  }
+  .tittle {
+    margin-top: -200px;
+  }
+}
+
+@media only screen and (width:414px){
+  .circle .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 340px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  .circle2 .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 340px;
+    top: 1040px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width:411px) {
+  .circle .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 330px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  .circle2 .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 330px;
+    top: 1040px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  .tittle {
+    margin-top: 60px;
+  }
+  .circle .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 300px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  .circle2 .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 300px;
+    top: 1140px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+@media only screen and (width:360px) {
+  .circle .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 280px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  .circle2 .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 280px;
+    top: 1170px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .card2-circle{
+    width: 100%;
+    height: 420px;
+    margin-bottom: 0px;
+    border-radius:20%;
+    margin-top: 0px;
+  }
+  .plays {
+    width: 100%;
+  }
+  .circle .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 240px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+  }
+  .circle2 .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 240px;
+    top: 1240px;
+    background:linear-gradient(45deg,#df2a2a, #a72121);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
   }
 }
